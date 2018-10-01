@@ -15,7 +15,7 @@ Configurazione del dispositivo per la creazione di TWRP su schede di riferimento
 - Copia questo progetto in /device/Amlogic/p281
 
 
-code:
+# code:
 
 cd \<source-dir\>
 
