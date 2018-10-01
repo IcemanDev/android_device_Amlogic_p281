@@ -17,7 +17,7 @@ Configurazione del dispositivo per la creazione di TWRP su schede di riferimento
 
 code:
 
-cd <source-dir>
+cd \<source-dir\>
 
 rm -r out
 
