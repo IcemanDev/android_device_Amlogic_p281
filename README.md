@@ -1,4 +1,5 @@
-# android_device_Amlogic_p281
+# android_device_Amlogic_p281 - Amlogic X96mini
+
 Configuration of the device for the creation of TWRP on Amlogic reference cards
 
 # Construction:
