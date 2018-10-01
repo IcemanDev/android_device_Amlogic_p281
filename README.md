@@ -16,7 +16,9 @@ Configurazione del dispositivo per la creazione di TWRP su schede di riferimento
 
 
 code:
+
 cd <source-dir>
+
 rm -r out
 
 . build/envsetup.sh && lunch
