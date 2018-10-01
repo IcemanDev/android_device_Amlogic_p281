@@ -24,7 +24,7 @@ TARGET_GLOBAL_CPPFLAGS += -mtune=cortex-a9 -mfpu=neon -mfloat-abi=softfp
 TARGET_BOOTLOADER_BOARD_NAME := p281
 
 ##########################################################################################################
-# Partitions & Kernel CALCOLO AUTOMATICO
+# Partitions & Kernel
 
 BOARD_FLASH_BLOCK_SIZE := 131072
 BOARD_BOOTIMAGE_PARTITION_SIZE := 33554432
@@ -76,8 +76,6 @@ TWHAVE_SELINUX := true
 TW_INCLUDE_FB2PNG := true
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 
-# CUSTOMIZATION by IceMan
-
 # Sdcard External
 BOARD_HAS_NO_REAL_SDCARD := false
 TW_DEFAULT_EXTERNAL_STORAGE := true
@@ -86,21 +84,8 @@ TW_DEFAULT_EXTERNAL_STORAGE := true
 TW_NO_REBOOT_BOOTLOADER := true
 TW_HAS_DOWNLOAD_MODE := false
 
-# Disable Mouse Cursor
-#TW_INPUT_BLACKLIST := "hbtp_vm"
-
-# Asian region languages
-#TW_EXTRA_LANGUAGES := false
-
-# Exclude Supersu
-#TW_EXCLUDE_SUPERSU := false
-
 # Encryption
 TW_INCLUDE_CRYPTO := true
-
-# Default Brightness (TW_DEFAULT_BRIGHTNESS=255-->100%; TW_DEFAULT_BRIGHTNESS=218-->85%)
-#TW_DEFAULT_BRIGHTNESS := 255
-#TW_MAX_BRIGHTNESS := 255
 
 # Use ro.product.model
 TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
@@ -114,17 +99,3 @@ TW_NO_EXFAT_FUSE := false
 
 # Set language default
 TW_DEFAULT_LANGUAGE := en
-
-# For Version TWRP
-#TW_SPECIFIC_VERSION_STR := "X.X.X"
-TW_DEVICE_VERSION := "by IceMan for Amlogic X96 mini"
-
-# For time custom
-TW_SPECIFIC_TIME_ZONE_VAR := "CET-1CEST,M3.5.0,M10.5.0"
-TW_SPECIFIC_TIME_ZONE_GUISEL := "CET-1;CEST,M3.5.0,M10.5.0"
-
-# For H24 hours
-TW_SPECIFIC_MILITARY_TIME := "1"
-
-#For reverse navbar (default "0")
-TW_SPECIFIC_SAMSUNG_NAVBAR := "0"
